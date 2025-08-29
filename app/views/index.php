@@ -11,7 +11,7 @@
         <select name="operacion">
             <option value="suma">+</option>
             <option value="resta">-</option>
-            <option value="multiplicar">x</option>
+            <option value="multiplicacion">*</option>
         </select>
         <input type="number" name="num2" required>
         <input type="submit" value="Calcular">
