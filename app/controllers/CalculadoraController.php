@@ -12,6 +12,8 @@ class CalculadoraController {
             $operacion = $_POST['operacion'];
             if ($operacion === 'suma') {
                 $resultado = $this->modelo->sumar($num1, $num2);
+            } else if ($operacion === 'resta') {
+                $resultado = $this->modelo->restar($num1, $num2);
             } 
             require_once __DIR__ . '/../views/index.php';
         } else {
