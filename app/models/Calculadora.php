@@ -10,6 +10,10 @@ class Calculadora{
         return $num1 - $num2;
     }
 
+    public function multiplicacion($num1, $num2){
+        return ($num1 * $num2);
+    }
+
 
 }
 
