@@ -14,10 +14,7 @@ class CalculadoraController {
                 $resultado = $this->modelo->sumar($num1, $num2);
             } else if ($operacion === 'resta') {
                 $resultado = $this->modelo->restar($num1, $num2);
-            } else if ($operacion === 'multiplicar') {
-                $resultado = $this->modelo->multiplicacion($num1, $num2);
-            } 
-            else if ($operacion === 'multiplicacion') {
+            } else if ($operacion === 'multiplicacion') {
                 $resultado = $this->modelo->multiplicar($num1, $num2);
             } 
             require_once __DIR__ . '/../views/index.php';
