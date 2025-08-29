@@ -5,6 +5,8 @@ class Calculadora
 
     public function sumar($num1, $num2)
     {
+        echo "Aqui vamos a hacer una función de sumar";
+        echo "No tiene relevancia";
         return $num1 + $num2;
     }
 
